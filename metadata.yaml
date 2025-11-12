@@ -1,0 +1,12 @@
+project:
+  name: EnReach
+  version: 0.1.0
+  author: Marek Sys
+  type: python
+  status: draft
+
+environment:
+  type: venv
+  path: ../../isolation/.venvs/EnReach/
+  language: python
+  created: 2025-11-12

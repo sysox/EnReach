@@ -1,0 +1,31 @@
+[project]
+name = "EnReach"
+version = "0.1.0"
+description = "Python project following workspace layout."
+authors = [{ name = "Marek Sys", email = "marek.sys@gmail.com" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+keywords = ["template", "project", "python"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/mareksys/EnReach"
+Repository = "https://github.com/mareksys/EnReach"
+Issues = "https://github.com/mareksys/EnReach/issues"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["src"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
